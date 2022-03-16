@@ -40,7 +40,7 @@ impl Component for Model{
         html!{
             <div class={"top-20 bg-white w-69 h-56 rounded-lg"}>
             <button class={"bg-slate-600 p-4 m-6 rounded-lg text-white hover:bg-slate-800 duration-500"} onclick={link.callback(|_|Msg::AddOne)} >{"Add One"}</button>
-            <button class={"bg-slate-600 p-4 m-6 rounded-lg text-white hover:bg-slate-800 duration-500"} onclick={link.callback(|_|Msg::Subtract)} >{"Substrack one"}</button>
+            <button class={"bg-slate-600 p-4 m-6 rounded-lg text-white hover:bg-slate-800 duration-500"} onclick={link.callback(|_|Msg::Subtract)} >{"Subtract one"}</button>
             <p class={"flex justify-center mt-10 font-semibold text-3xl bg-slat-700"}>{self.value}</p>
             </div>
         }

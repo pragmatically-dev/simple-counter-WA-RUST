@@ -8,3 +8,6 @@ steps to run it:
 2. Run ```npm install```
 3. After that you have to run the next (dev mode) ```npx tailwindcss -i ./src/input.css -o ./output.css --watch ```
 4. And finally ```trunk serve``` to compile the WA
+
+### Preview
+![Esta es una imagen](imagen_2022-03-16_021908.png)
